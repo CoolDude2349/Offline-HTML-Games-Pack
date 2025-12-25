@@ -234,6 +234,30 @@ window.Audio = function(src) {
 };
 window.Audio.prototype = OriginalAudio.prototype;
 
+	const OriginalFontFace = window.FontFace;
+
+window.FontFace = function (family, source, descriptors) {
+   
+  if (typeof source === "string") {
+    source = source.replace(
+      /url\((['"]?)(.*?)\1\)/g,
+      (match, quote, url) => {
+ 
+        const rewritten = rewriteURL(url);
+		 
+        return `url(${quote}${rewritten}${quote})`;
+      }
+    );
+  }
+
+   
+  return new OriginalFontFace(family, source, descriptors);
+};
+
+ 
+window.FontFace.prototype = OriginalFontFace.prototype;
+Object.setPrototypeOf(window.FontFace, OriginalFontFace);
+
 
 function rewriteURL(original) {
 
