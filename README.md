@@ -5,7 +5,7 @@ A repo filled with 200 offline games that can each run on a single file. This is
 
 For installation: Download and extract the repository as a zip file to save all the games for offline use. It may take a while to download fully. ( ~ 2.8 GB decompressed)
 
-The downside of inlining everything is the file size. For code editors, you can use chunks.py to split them. You can use https://github.com/CoolDude2349/schoolworkforall/blob/main/code-inputer2.html for loading the chunks.
+The downside of inlining everything is the file size. For code editors, you can use chunks.py to split them. You can use https://github.com/CoolDude2349/schoolworkforall/blob/main/code-inputer2.html for loading the chunks. It may be better to use the single file html.
 
 
 The collection's updated regulary to add more offline games. Many more soon..
