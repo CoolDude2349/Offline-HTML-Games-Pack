@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<!-- v1.4 -->
+<!-- v1.4.1 -->
 	
 <style>
  body {
@@ -178,7 +178,7 @@ label {color:#ffffff;font-weight:bold;}
 		<button onclick = "saveBlacklist()">Save</button>
 	</div>
 	
-	<p id = "version">v1.4</p>
+	<p id = "version">v1.4.1</p>
 
 	<div id = "topright">
 	<button id = "togglecovers">Hide Covers</button>
@@ -190,7 +190,7 @@ label {color:#ffffff;font-weight:bold;}
 	</div>
 
 
-	<div id="button-count">Educational Content: 0</div>
+	<div id="button-count">Loaded Content: 0</div>
 	<div id="storage-count">Saved Storage: 0 MB</div>
 	<p id="wait">hi</p>
 	<label id = "fileInputLabel">Import ZIP or HTML Before Starting
@@ -524,7 +524,7 @@ async function loadZip(x, index, buttonEl) {
         const htmlFiles = Object.keys(zip.files)
             .filter(name => {
                 const lower = name.toLowerCase();
-                return (lower.endsWith(".html") || lower.endsWith(".htm")) && !fileBlackList.includes(lower.split(".htm")[0]);
+                return (lower.endsWith(".html") || lower.endsWith(".htm")) && !fileBlackList.includes(name.split(".htm")[0]);
             })
              .map(name => {
 
@@ -588,7 +588,7 @@ async function loadZip(x, index, buttonEl) {
 		}
     } catch (err) {
         console.error(err);
-        alert("Error loading ZIP " + index + ". " + err);
+        //alert("Error loading ZIP " + index + ". " + err);
         wait.textContent = 'Error. ' + err;
     }
 }
@@ -646,39 +646,16 @@ function renderHtmlButtons(inputWay) {
 
 		btn.addEventListener("mouseleave", function() {
 			
-			setTimeout(() => {
+			 
 				if (!saveButton.matches(":hover") && !blacklistButton.matches(":hover")) {
 					hoveringFile = null;
 					saveButton.style.display = "none";
 					blacklistButton.style.display = "none";
 				}
-			}, 10);  
+			  
 		});
 
-		 
-		saveButton.addEventListener("mouseleave", function() {
-			setTimeout(() => {
-				const anyBtnHovered = [...document.querySelectorAll(".html-button")]
-					.some(b => b.matches(":hover"));
-				if (!anyBtnHovered && !blacklistButton.matches(":hover")) {
-					saveButton.style.display = "none";
-					blacklistButton.style.display = "none";
-				}
-			}, 10);
-		});
-
-		 
-		blacklistButton.addEventListener("mouseleave", function() {
-			setTimeout(() => {
-				const anyBtnHovered = [...document.querySelectorAll(".html-button")]
-					.some(b => b.matches(":hover"));
-				if (!anyBtnHovered && !saveButton.matches(":hover")) {
-					blacklistButton.style.display = "none";
-					saveButton.style.display = "none";
-				}
-			}, 10);
-		});
-
+	 
 
 
 
@@ -696,7 +673,7 @@ function renderHtmlButtons(inputWay) {
         //optionsDiv.appendChild(btn);
         }
     });
-    countDiv.textContent = "Educational Content: " + divcontainer.children.length;
+    countDiv.textContent = "Loaded Content: " + divcontainer.children.length;
 }
 
 async function openHtml(zip, fileName) {
@@ -815,16 +792,7 @@ function loadFiles() {
                 
             });
 
-        deleteButton.addEventListener("mouseleave", function() {
-                
-            
-                    const anyBtnHovered = [...document.querySelectorAll(".html-button")]
-                        .some(b => b.matches(":hover"));
-                    if (!anyBtnHovered) {
-                        deleteButton.style.display = "none";
-                    }
-                
-            });
+        
       
       button.onclick = function() {
         if (!frameDB){
@@ -832,7 +800,7 @@ function loadFiles() {
             openHtml(f.data, f.name);
         }
         }
-      countDiv.textContent = "Educational Content: " + divcontainer.children.length;
+      countDiv.textContent = "Loaded Content: " + divcontainer.children.length;
       
       
     });
