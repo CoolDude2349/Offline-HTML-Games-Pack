@@ -17,7 +17,7 @@ SUGGEST GAMES [HERE](https://github.com/CoolDude2349/Offline-HTML-Games-Pack/iss
 
 Use a code editor like [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default) or [Codecademy](https://www.codecademy.com/courses/learn-html-fundamentals/lessons/intro-to-html/exercises/intro), and paste the code of [single-file.html](single-file.html). You can also download the single file and open in **file://**.
 
-Online files blocked:
+CDN blocked:
 1. Download the repository through your phone or another device (~10-30 minutes)
 2. Go to Google Drive and log in to the account tied to the Chromebook
 3. Import the zip file to Google Drive (~20 minutes)
