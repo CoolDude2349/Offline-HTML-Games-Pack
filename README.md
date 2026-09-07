@@ -31,9 +31,9 @@ CDN blocked:
 
 <br><br>
 Skip transferring altogether by downloading from Dropbox:
-[Part 1](https://www.dropbox.com/scl/fo/nuvc2g66p9szv2hy8f7yf/ANEhJSX8knhTg_3ChTlHVaA?rlkey=r9uubililje0kq487d693fx31&st=q34ylwhq&dl=0)
-[Part 2](https://www.dropbox.com/scl/fo/96oa5s878ost8j2t8reuz/ADD8Wt2IxQLGI4q1920PFP0?rlkey=6l677unqpf657842ljrxbv66b&st=fapdvax8&dl=0)
-[Part 3](https://www.dropbox.com/scl/fo/pd3agtkkx3mb55m6c1nrg/AErKPZ4_PXGmrOkZK91ZYpU?rlkey=umc7y2i88irl915gztd5um75o&st=a8txq550&dl=0)
+[Part 1](https://www.dropbox.com/scl/fo/vvgpes7osxmzg90fpa8wn/AJO6xn6vr6z4a3geig-ZKnc?rlkey=ymlfy2nlwsq26yntp22m5i5tx&st=d4yacszy&dl=0)
+[Part 2](https://www.dropbox.com/scl/fo/upirw86xa9u2moa1nsmuy/AA2jmUAiTuoGv0lgp0rwX10?rlkey=7qpvyx638w5up8niiqossg9l5&st=lketd3ka&dl=0)
+[Part 3](https://www.dropbox.com/scl/fo/dt01zl6qbq1be69g6884i/ANTOBxQcLoOADQU3b2jLeWY?rlkey=mzyvdtlhgdnnizituby9h6wft&st=cdkfqwo1&dl=0)
 
 <br><br><br>
 
