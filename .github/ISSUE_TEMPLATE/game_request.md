@@ -6,9 +6,8 @@ labels: game-request
 ---
 ## Rules
 1. No paid indie games
-2. No overly large games
-3. No online multiplayer games
-4. Must be somewhat popular
+2. No online multiplayer games
+3. Must be somewhat popular
 
 
 
