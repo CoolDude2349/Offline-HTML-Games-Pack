@@ -14,6 +14,6 @@ SUGGEST GAMES [HERE](https://github.com/CoolDude2349/Offline-HTML-Games-Pack/iss
 
 For **Chromebooks** - See [chromeOS.md](methods/chromeOS.md)
 
-<br><br><br><br><br>
+<br><br>
 
-More games soon 👀
+More games soon!!!
