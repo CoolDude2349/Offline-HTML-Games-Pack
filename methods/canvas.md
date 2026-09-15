@@ -1,3 +1,6 @@
+(BROKEN)
+
+
 1. Obtain a copy of the single-file from this repo and store in your downloads (or transfer to another device)
 2. Login to Canvas Instructure (canvas.instructure.com)
 3. Go to Account > Files > My Files
