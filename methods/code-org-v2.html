@@ -211,7 +211,7 @@
 
               var fullHtml = chunks.join("");
 
-              const target = 'blobUrls[filename] = URL.createObjectURL(finalBlob);';
+              const target = atob("YmxvYlVybHNbZmlsZW5hbWVdID0gVVJMLmNyZWF0ZU9iamVjdFVSTChmaW5hbEJsb2Ip")
 
 if (fullHtml.includes(target)) {
     console.log('Found target line!');
@@ -254,7 +254,7 @@ reader.readAsDataURL(finalBlob);`
 
             var inputHtml = uploadedHtml || textbox.value;
 
-            const target = 'blobUrls[filename] = URL.createObjectURL(finalBlob);';
+            const target = atob("YmxvYlVybHNbZmlsZW5hbWVdID0gVVJMLmNyZWF0ZU9iamVjdFVSTChmaW5hbEJsb2Ip");
 
 if (inputHtml.includes(target)) {
     console.log('Found target line!');
