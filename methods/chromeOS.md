@@ -11,3 +11,11 @@ CDN blocked:
 **file://** also blocked:
 1. Use a code editor and paste the code of [file-input.html](file-input.html) or [single-file.html](single-file.html). These allow you to import and run the HTML files you've saved.
 2. Store the code in a Google Doc or something for later use.   
+
+<br>
+<hr>
+
+Skip transferring altogether by downloading from Dropbox:
+[Part 1](https://www.dropbox.com/scl/fo/vvgpes7osxmzg90fpa8wn/AJO6xn6vr6z4a3geig-ZKnc?rlkey=ymlfy2nlwsq26yntp22m5i5tx&st=d4yacszy&dl=0)
+[Part 2](https://www.dropbox.com/scl/fo/upirw86xa9u2moa1nsmuy/AA2jmUAiTuoGv0lgp0rwX10?rlkey=7qpvyx638w5up8niiqossg9l5&st=lketd3ka&dl=0)
+[Part 3](https://www.dropbox.com/scl/fo/dt01zl6qbq1be69g6884i/ANTOBxQcLoOADQU3b2jLeWY?rlkey=mzyvdtlhgdnnizituby9h6wft&st=cdkfqwo1&dl=0)
