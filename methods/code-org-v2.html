@@ -1,3 +1,4 @@
+<!-- Only works for very few games -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -210,6 +211,23 @@
 
               var fullHtml = chunks.join("");
 
+              const target = 'blobUrls[filename] = URL.createObjectURL(finalBlob);';
+
+if (fullHtml.includes(target)) {
+    console.log('Found target line!');
+    
+    fullHtml = fullHtml.replace(
+        target,
+        `const reader = new FileReader();
+reader.onload = () => {
+    blobUrls[filename] = reader.result;
+};
+reader.readAsDataURL(finalBlob);`
+    );
+} else {
+    console.log('Target line NOT found.');
+}
+
               textbox.value = "";
 
               doc.open();
@@ -235,6 +253,23 @@
             wi.eval(okmelon);
 
             var inputHtml = uploadedHtml || textbox.value;
+
+            const target = 'blobUrls[filename] = URL.createObjectURL(finalBlob);';
+
+if (inputHtml.includes(target)) {
+    console.log('Found target line!');
+    
+    inputHtml = inputHtml.replace(
+        target,
+        `const reader = new FileReader();
+reader.onload = () => {
+    blobUrls[filename] = reader.result;
+};
+reader.readAsDataURL(finalBlob);`
+    );
+} else {
+    console.log('Target line NOT found.');
+}
  
             try {
 
