@@ -9,7 +9,7 @@ CDN blocked:
 6. Go to the extracted folder, double-click each HTML file to open in file://
 
 **file://** also blocked:
-1. Use a code editor and paste the code of [file-input.html](file-input.html) or [single-file.html](single-file.html). These allow you to import and run the HTML files you've saved.
+1. Use a code editor and paste the code of [file-input.html](/file-input.html) or [single-file.html](/single-file.html). These allow you to import and run the HTML files you've saved.
 2. Store the code in a Google Doc or something for later use.   
 
 <br>
