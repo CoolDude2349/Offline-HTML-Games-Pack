@@ -1,4 +1,4 @@
-Use a code editor like [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default) or [Codecademy](https://www.codecademy.com/courses/learn-html-fundamentals/lessons/intro-to-html/exercises/intro), and paste the code of [single-file.html](/single-file.html). You can also download the single file and open in **file://**.
+Use a code editor like [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default), [CodeHS](https://codehs.com/editor/explore_demo_in_sandbox/2669143), or [Codecademy](https://www.codecademy.com/courses/learn-html-fundamentals/lessons/intro-to-html/exercises/intro), and paste the code of [single-file.html](/single-file.html). You can also download the single file and open in **file://**.
 
 Games aren't loading:
 1. Download the repository through your phone or another device (~10-30 minutes)
