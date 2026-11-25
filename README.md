@@ -1,6 +1,6 @@
 <h1>A collection of offline HTML games.</h1>
 
-<p>A repo filled with 352 offline games that can each run on a single file. This is a good option if you are having internet connectivity issues, or you're at some place with <i>restricted internet</i>.</p>
+<p>A repo filled with 352 offline games that can each run on a single file. No CDNs are used. This is a good option if you are having internet connectivity issues, or you're at some place with <i>restricted internet</i>.</p>
 
 Most of these games are from the [Ultimate Game Stash](https://docs.google.com/document/u/4/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q) but turned offline.
 
